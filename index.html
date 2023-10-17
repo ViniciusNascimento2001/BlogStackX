@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title>Blog de Notícia</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Style/style.css">        
+    </head>
+    <body style="background-color: #D9D9D9;">
+        <div id="pagina-principal">
+            <div id="cabecalho" style="width: 100%;">
+                <div id="titulo">
+                    <a href="?category=''" style="text-decoration: none;color: black;">
+                        <h2>Blog de Noticia</h2>
+                    </a>           
+                </div>
+                <ul>
+                    <li><a href="?category='Tecnologia'" class="mymenu" title="Tecnologia">Tecnologia</a></li>
+                    <li><a href="?category='Esporte'" class="mymenu" title="Esporte">Esporte</a></li>
+                    <li><a href="?category='Gerais'" class="mymenu" title="Gerais">Gerais</a></li>
+                    <li><a href="?category='Tempo'" class="mymenu" title="Tempo">Tempo</a></li>
+                </ul>
+            </div>
+            <div id="conteudo-principal"></div>
+        </div>
+    </body>
+    <script src="Script/script.js"></script>
+    <script>
+        allposts();
+    </script>
+</html>
